@@ -135,7 +135,6 @@ export function RouteOptimizationPanel({
                       <span className="w-5 h-5 flex items-center justify-center rounded-full bg-blue-600">
                         {idx + 1}
                       </span>
-                      <span>{wp.name}</span>
                       <span className="text-slate-500">({Math.round(wp.x)}, {Math.round(wp.y)})</span>
                     </div>
                   ))}
