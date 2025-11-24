@@ -44,7 +44,6 @@ export default function Page() {
             orders={orders}
             locations={locations}
             onToggleVehicle={toggleStatus}
-            onSelectVehicle={setSelectedVehicle}
           />
         )}
 
